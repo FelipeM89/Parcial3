@@ -1,6 +1,6 @@
 # **Generación de una Gramática de Atributos para un Lenguaje SQL (CRUD)**
 
-1. Fundamentos del Diseño
+1. ## **Fundamentos del Diseño**
 ### Gramática de Atributos
 
 Una gramática de atributos extiende una gramática libre de contexto agregando:
@@ -31,7 +31,7 @@ Ejemplo conceptual:
 Select → "SELECT" Campos "FROM" Tabla Condicion
     { Select.codigo = "SELECT " + Campos.lista + " FROM " + Tabla.nombre + Condicion.exp }
  ```
-2. Función Generadora — Modelo Solicitado
+2. ## **Función Generadora — Modelo Solicitado**
 El proyecto se basa en una función que sigue el formato:
 
 Eje(x, y, z): return Result
