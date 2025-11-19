@@ -64,6 +64,7 @@ def Eje(operaciones, atributos, reglas):
     return gramatica
 ```
 La función devuelve una estructura formal que representa la gramática completa.
+
 3. ## **Diseño de la Gramática de Atributos**
 A continuación se presenta el diseño completo de la gramática que permite procesar operaciones SQL tipo CRUD.
 Los atributos se calculan mediante reglas semánticas integradas.
